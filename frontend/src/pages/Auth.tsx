@@ -5,7 +5,6 @@ import { ArrowLeft } from "lucide-react";
 
 const Auth = () => {
   const [isSignUp, setIsSignUp] = useState(false);
-
   return (
     <div className="min-h-screen bg-white flex items-center justify-center p-4">
       {/* Background Elements */}
@@ -65,5 +64,4 @@ const Auth = () => {
     </div>
   );
 };
-
 export default Auth;

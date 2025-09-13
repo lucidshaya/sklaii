@@ -11,6 +11,9 @@
     "skipLibCheck": true,
     "allowJs": true,
     "noUnusedLocals": false,
-    "strictNullChecks": false
+    "strictNullChecks": false,
+    "outDir": "./dist", // Ensure build output goes to 'dist'
+    "moduleResolution": "node", // Align with Vite's module resolution
+    "jsx": "react-jsx" // Explicitly set for React
   }
 }
