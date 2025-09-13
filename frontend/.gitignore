@@ -1,6 +1,4 @@
 nodemodules 
-dist
-
 .env
 .vscode
 node_modules
